@@ -10,16 +10,16 @@ This code repository accompanies the comprehensive STM32 Embedded Systems Progra
 
 ```
 STM32_embedded_Code/
- Chapter_02_Introduction_to_Embedded_Systems/    # Basic concepts and first programs
- Chapter_03_Understanding_Microcontrollers_and_STM32_Family/  # STM32 architecture
- Chapter_04_Development_Environment/             # IDE setup and project creation
- Chapter_05_STM32_Architecture_and_Core_Components/  # Memory, bus matrix, core systems
- Chapter_06_Clock_Systems_and_Power_Management/ # Clock configuration and power management
- Chapter_07_GPIO_Programming_and_Digital_IO/    # Digital I/O and peripheral configuration
- Chapter_08_Interrupts_and_Exception_Handling/  # Interrupt handling and NVIC
- Chapter_09_Timers_and_PWM_Generation/          # Timer peripherals and PWM generation
- Chapter_10_ADC_and_DAC_Programming/            # Analog conversion and sensor interfacing
- Chapter_11_Capstone_Projects_Advanced_System_Integration/  # Advanced projects
+├── Chapter_02_Introduction_to_Embedded_Systems/    # Basic concepts and first programs
+├── Chapter_03_Understanding_Microcontrollers_and_STM32_Family/  # STM32 architecture
+├── Chapter_04_Development_Environment/             # IDE setup and project creation
+├── Chapter_05_STM32_Architecture_and_Core_Components/  # Memory, bus matrix, core systems
+├── Chapter_06_Clock_Systems_and_Power_Management/ # Clock configuration and power management
+├── Chapter_07_GPIO_Programming_and_Digital_IO/    # Digital I/O and peripheral configuration
+├── Chapter_08_Interrupts_and_Exception_Handling/  # Interrupt handling and NVIC
+├── Chapter_09_Timers_and_PWM_Generation/          # Timer peripherals and PWM generation
+├── Chapter_10_ADC_and_DAC_Programming/            # Analog conversion and sensor interfacing
+└── Chapter_11_Capstone_Projects_Advanced_System_Integration/  # Advanced projects
 ```
 
 ## Quick Start Guide
@@ -36,22 +36,14 @@ STM32_embedded_Code/
   - STM32F4 Discovery (recommended for most examples)
   - STM32F7 Discovery (for advanced examples)
   - Nucleo boards (compatible with most examples)
-- **Basic Components**: LE
-
-Ds, buttons, resistors, jumper wires
+- **Basic Components**: LEDs, buttons, resistors, jumper wires
 - **Optional**: Oscilloscope, multimeter for advanced debugging
 
 ### 3. Software Setup
 
-- **STM32
-
-CubeIDE**: Download from [ST
-
-Microelectronics](https://www.st.com/en/development-tools/stm32cubeide.html)
+- **STM32CubeIDE**: Download from [STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeide.html)
 - **STM32 HAL Library**: Included with CubeIDE
-- **STM32
-
-CubeMX**: Configuration tool (included with CubeIDE)
+- **STM32CubeMX**: Configuration tool (included with CubeIDE)
 
 ### 4. Running Your First Example
 
@@ -62,9 +54,7 @@ cd STM32_embedded_Code/Chapter_02_Introduction_to_Embedded_Systems/
 # 2. Copy the LED blink example
 cp code_example_01.c /path/to/your/stm32/project/
 
-# 3. Open in STM32
-
-CubeIDE and configure your board
+# 3. Open in STM32CubeIDE and configure your board
 # 4. Build and flash to your development board
 ```
 
@@ -74,9 +64,7 @@ Each code example includes:
 
 - **Complete working code** with detailed comments
 - **Hardware setup instructions** in code comments
-- **Configuration examples** for STM32
-
-CubeMX
+- **Configuration examples** for STM32CubeMX
 - **Troubleshooting tips** and common issues
 - **Performance notes** and optimization suggestions
 - **Learning objectives** and key concepts
@@ -102,9 +90,7 @@ CubeMX
 
 - **Missing includes**: Check that all STM32 HAL headers are included
 - **Undefined references**: Ensure all required HAL functions are linked
-- **Clock errors**: Verify clock configuration in STM32
-
-CubeMX
+- **Clock errors**: Verify clock configuration in STM32CubeMX
 
 ### Hardware Issues
 
